@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Dev Portfolio | Claude Code で作った実績集</title>
+  <meta name="description" content="Claude Code を使って構築したAIエージェント・自動化・スキル開発の実績ポートフォリオ">
+  <meta property="og:title" content="AI Dev Portfolio">
+  <meta property="og:description" content="Claude Code で作ったAI開発実績集">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav class="nav">
+    <div class="nav-logo">
+      <span class="nav-logo-dot"></span>
+      AI Dev Portfolio
+    </div>
+    <ul class="nav-links">
+      <li><a href="#works">Works</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-badge">Claude Code × AI Development</div>
+    <h1 class="hero-title">
+      AIで、<em>仕事を変える</em>。<br>
+      Claude Code で作った実績集
+    </h1>
+    <p class="hero-sub">
+      エージェント・自動化・スキル開発まで、<br>
+      Claude Code を使って実際に構築したプロジェクトをまとめています。
+    </p>
+    <div class="hero-actions">
+      <a href="#works" class="btn btn-primary btn-lg">実績を見る →</a>
+      <a href="https://github.com/a-mi3/-my-profile" target="_blank" rel="noopener" class="btn btn-outline btn-lg">GitHub</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Categories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Claude Code</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Works ── -->
+  <section class="section" id="works">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Works</div>
+        <h2 class="section-title">プロジェクト実績</h2>
+        <p class="section-desc">Claude Code との対話だけで構築した、自動化・エージェント・ドキュメントツールの実績です。</p>
+      </div>
+
+      <!-- Automation -->
+      <div class="category reveal">
+        <div class="category-heading">🤖 Automation / Scraping</div>
+        <div class="grid-2">
+
+          <div class="card card-featured">
+            <div class="card-thumb">
+              <img src="assets/images/project-sessions.png" alt="Claude Codeセッション一覧" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="card-icon">📰</span>
+              </div>
+              <h3>Japanese News Headlines Scraper</h3>
+              <p>日本語ニュースのヘッドラインを自動収集するスクレイパー。RSS・WebページからAIが情報を整理し、定期実行で情報収集を完全自動化。</p>
+              <div class="tags">
+                <span class="tag">Claude Code</span>
+                <span class="tag">Python</span>
+                <span class="tag">Scraping</span>
+                <span class="tag tag-teal">Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-thumb">🌤</div>
+            <div class="card-body">
+              <div class="card-meta"><span class="card-icon">🌤</span></div>
+              <h3>Weather Forecast File</h3>
+              <p>天気予報APIを取得してMarkdownファイルに整形・保存する自動化ツール。毎日の天気をワンコマンドで記録。</p>
+              <div class="tags">
+                <span class="tag">Claude Code</span>
+                <span class="tag">API</span>
+                <span class="tag tag-teal">Automation</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="category reveal">
+        <div class="category-heading">🛠 Claude Code スキル開発</div>
+        <div class="grid-3">
+
+          <div class="card">
+            <div class="card-thumb">📖</div>
+            <div class="card-body">
+              <h3>Claude Code Guide Skills</h3>
+              <p>Claude Code の使い方をガイドするカスタムスキルコマンド。よく使う操作をワンコマンドに集約。</p>
+              <div class="tags">
+                <span class="tag">Claude Code</span>
+                <span class="tag">Skills</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">🤝</div>
+            <div class="card-body">
+              <h3>ClaudeCode SubAgents / Skills / Commands</h3>
+              <p>サブエージェントとスキルを活用したマルチエージェント構成。複雑なタスクを自動的に分解・委譲する仕組みを構築。</p>
+              <div class="tags">
+                <span class="tag">SubAgents</span>
+                <span class="tag">Multi-Agent</span>
+                <span class="tag tag-teal">Orchestration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">⚙️</div>
+            <div class="card-body">
+              <h3>Anthropic Skill-Creator Installation</h3>
+              <p>Anthropic 公式 skill-creator のセットアップと動作検証。独自スキルの開発基盤を一から構築。</p>
+              <div class="tags">
+                <span class="tag">Anthropic</span>
+                <span class="tag">skill-creator</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Docs -->
+      <div class="category reveal">
+        <div class="category-heading">📄 ドキュメント / ユーティリティ</div>
+        <div class="grid-3">
+
+          <div class="card">
+            <div class="card-thumb">🔢</div>
+            <div class="card-body">
+              <h3>README.md Character Count</h3>
+              <p>Markdown ファイルの文字数を改行・スペース有無の4パターンでカウントするユーティリティ。</p>
+              <div class="tags">
+                <span class="tag">PowerShell</span>
+                <span class="tag">Utility</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">👤</div>
+            <div class="card-body">
+              <h3>README Self-Introduction</h3>
+              <p>AI 開発者としての自己紹介 README の作成。GitHub プロフィールを整備し、実績を可視化。</p>
+              <div class="tags">
+                <span class="tag">Markdown</span>
+                <span class="tag">GitHub</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stack ── -->
+  <section class="section section-alt" id="stack">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Stack</div>
+        <h2 class="section-title">使用ツール & 技術</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-item"><span class="skill-dot"></span>Claude Code</div>
+        <div class="skill-item"><span class="skill-dot"></span>Claude API</div>
+        <div class="skill-item"><span class="skill-dot"></span>Python</div>
+        <div class="skill-item"><span class="skill-dot"></span>PowerShell</div>
+        <div class="skill-item"><span class="skill-dot"></span>GitHub / Git</div>
+        <div class="skill-item"><span class="skill-dot"></span>Multi-Agent</div>
+        <div class="skill-item"><span class="skill-dot"></span>MCP Server</div>
+        <div class="skill-item"><span class="skill-dot"></span>Markdown</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About / Timeline ── -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">About</div>
+        <h2 class="section-title">活動の流れ</h2>
+        <p class="section-desc">Claude Code を使いながら、AIを活用した業務自動化・ツール開発を継続的に実践しています。</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="tl-item">
+          <div><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-date">2026.06</div>
+            <div class="tl-title">ポートフォリオサイト構築</div>
+            <div class="tl-desc">Claude Code + GitHub Pages で本サイトを公開。design-prompt.yaml によるデザイントークン管理を導入。</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-date">2026.06</div>
+            <div class="tl-title">SubAgents / Skills 開発</div>
+            <div class="tl-desc">Claude Code のサブエージェント・スキル機能を活用したマルチエージェント構成を構築。</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-date">2026.06</div>
+            <div class="tl-title">自動化ツール群の開発</div>
+            <div class="tl-desc">ニュース収集・天気予報取得など、日常業務を自動化するツールを複数構築。</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <div class="tl-date">2026.06</div>
+            <div class="tl-title">Claude Code 利用開始</div>
+            <div class="tl-desc">Claude Code を導入し、AIを活用した開発ワークフローの構築を開始。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner">
+      <div class="contact-box reveal">
+        <h2>一緒に何か作りませんか？</h2>
+        <p>AI・自動化・Claude Code を活用したプロジェクトについて、お気軽にご相談ください。</p>
+        <a href="https://github.com/a-mi3/-my-profile" target="_blank" rel="noopener" class="btn btn-white">
+          GitHub を見る →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">AI Dev Portfolio</div>
+      <ul class="footer-links">
+        <li><a href="#works">Works</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="https://github.com/a-mi3/-my-profile" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <div class="footer-copy">Built with Claude Code · 2026</div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
